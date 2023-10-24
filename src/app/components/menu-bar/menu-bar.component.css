@@ -1,12 +1,18 @@
 
 
-.container__menu-bar > ul{
+ul{
   display: flex;
   flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
-  margin-right: 20px;
-  list-style: none;
+.container__menu-bar{
+  background-color: #b6b6b6;
 }
 
+ li{
+  margin-right: 30px;
+  list-style: none;
+}
+.sHeader{
+  background-color: aqua;
+}
